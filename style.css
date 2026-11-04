@@ -12,13 +12,11 @@ h2 {
 }
 
 #car-of-the-day {
-    text-align: center;
+    display:block;
+    margin-left : auto;
+    margin-right: auto;
+    max-width: 500px;
 }
-
-div background{
-    background-color: black;
-}
-
 h2{
      color: Red;
     font-family: 'black ops one', sans serif;
