@@ -39,8 +39,8 @@ h1 {
     }
 .age, .brand, .colour {
     color: blue;
-    }
-    .age,brand, .colour {
+}
+    .age, .brand, .colour {
         width: 100px;
         padding: 10px;
 }
