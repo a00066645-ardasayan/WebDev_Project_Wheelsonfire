@@ -1,5 +1,5 @@
 .main-nav:hover {
-    color: black;
+    color: green;
     font-size: 50px;
     text-align: center;
 }
@@ -21,6 +21,8 @@ h2 {
     border-radius: 16px;
     border: 3px solid rgba(255, 255, 255, 0.25);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    flex-wrap: nowrap;
 
 }
 h2 {
@@ -57,7 +59,7 @@ h1{
     }
 
 .age:hover, .brand:hover, .colour:hover {
-    width: 20px;
+    width: 50px;
     padding: 5px;
     background-color: darkblue;
 }
@@ -79,6 +81,9 @@ body {
     border-radius: 15px;
     margin: 30px auto;
     max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 h3 {
     color: red;
