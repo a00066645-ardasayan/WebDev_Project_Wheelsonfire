@@ -91,4 +91,5 @@ button:hover {
     background-color: blue;
     width: cover;
     height: 100px;
+    transition: background-color 0.5s ease;
 }
