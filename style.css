@@ -1,4 +1,4 @@
-.main-nav {
+.main-nav:hover {
     color: black;
     font-size: 50px;
     text-align: center;
@@ -43,7 +43,7 @@ h1 {
         font-family: sans serif;
         margin-bottom: 16px;
     }
-.age, .brand, .colour {
+.age:hover, .brand:hover, .colour:hover {
     color: blue;
 }
     .age, .brand, .colour {
@@ -84,4 +84,12 @@ h3 {
     color:brown;
     font-family: sans serif;
     font-size: 20px;
+}
+input[type="text"]:hover {
+    border-color: blue;
+}
+.square:hover {
+    background-color: blue;
+    width: cover;
+    height: 100px;
 }
